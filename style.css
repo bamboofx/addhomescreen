@@ -1,0 +1,45 @@
+/* Reset some basic elements */
+html, body, #__next {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+  }
+  
+  /* Set a global font style */
+  body {
+    font-family: Arial, sans-serif;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  /* Add some global styling for all buttons */
+  button {
+    cursor: pointer;
+  }
+  
+  /* Add some global styling for all input fields */
+  input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .splash-container {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("./bg.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  
+  .splash-title {
+    display: inline;
+    width: 100vw;
+  }
+  
