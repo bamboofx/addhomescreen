@@ -7,15 +7,11 @@
   <title>Your Web App</title>
   <link rel="manifest" href="./manifest.json">
   <!-- Add a link to your icon -->
-  <link rel="icon" href="./icon.png" type="image/png">
+  <link rel="icon" href="./micon.png" type="image/png">
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-
-
-  <!-- Add to Home Screen button -->
-  <button id="addToHomeScreenButton" style="display: none;">Add to Home Screen</button>
   <div class="splash-container">
     <h1 class="splash-title">Welcome to My Game </h1>
     <div class="splash-buttons">
@@ -60,6 +56,9 @@
                   });
                 });
               });
+            }
+            else {
+              alert("If you are using Safari, please use the share button at top right conner and select Add to Home Screen")
             }
           })
           .catch((error) => {
